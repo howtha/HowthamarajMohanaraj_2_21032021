@@ -1,0 +1,147 @@
+@font-face
+{
+    font-family : 'Raleway';
+    src : url('fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype'),
+    url('fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype'),
+    url('fonts/Raleway/static/Raleway-Bold.ttf') format('truetype'),
+    url('fonts/Raleway/static/Raleway-Black.ttf') format('truetype'),
+    url('fonts/Raleway/static/Raleway-ExtraBold.ttf') format('truetype'),
+    url('fonts/Raleway/static/Raleway-Regular.ttf'), format('truetype');
+}
+
+body
+{
+    font-family: 'Raleway', Arial, sans-serif;
+    margin-left : 20px;
+    margin-right : 20px;
+}
+
+nav ul
+{
+    display : flex;
+    justify-content: flex-end;
+}
+
+nav ul li
+{
+    margin-right : 50px;
+    list-style-type: none;
+    position : relative;
+    top : -30px;
+    margin-bottom: -20px;
+}
+
+nav ul li span
+{
+    color : grey;
+}
+
+nav h1
+{
+    color : #0065FC;
+    font-size: 20px;
+}
+
+li a
+{
+    text-decoration: none;
+    color : #0065FC;
+}
+
+.hebergement p
+{
+    font-weight : bold;
+    margin-bottom : 0;
+    font-size : 0.9em;
+    margin-bottom: 5px;
+}
+
+.hebergement span
+{
+    color : grey;
+    font-size : 0.8em;
+}
+
+form button
+{
+    background-color: #0065FC;
+    color : white;
+    border-radius: 0 10px 10px 0;
+    padding : 0.6em;
+    margin-left: -10px;
+    margin-top : 10px;
+}
+
+form input
+{
+    padding : 0.6em;
+    border-color : #F2F2F2;
+    margin-bottom : 20px;
+}
+
+form i
+{
+    background-color: rgb(235, 235, 235);
+    padding : 8px;
+    height : 18px;
+    margin-right : -4px;
+}
+
+.filtred h3
+{
+    font-weight: bold;
+    font-size : 0.9em;
+    margin-right : 20px;
+}
+
+.filtred
+{
+    display : flex;
+}
+
+.filtred button
+{
+    margin-right : 20px;
+    background-color: white;
+    border-radius : 10px;
+    font-weight: bold;
+    height : 30px;
+    position : relative;
+    top : 8px;
+    margin-bottom: 30px;
+    border-color : #F2F2F2;
+}
+
+.filtred i
+{
+    background-color: #DEEBFF;
+    padding : 10px 12px 5px 10px;
+    color : #0065FC;
+    border-radius: 60%;
+    position : relative;
+    bottom : 2px;
+    right : 12px;
+    vertical-align : middle;
+    margin-right : -5px;
+}
+
+span
+{
+    color : grey;
+    font-size : 0.9em;
+}
+
+section
+{
+    display : flex;
+    width : 30%;
+}
+
+span i
+{
+    border : 1px solid #DEEBFF;
+    border-radius : 50%;
+    padding : 3px 7px 3px 7px;
+    font-size: 0.8em;
+    color : #0065FC;
+}

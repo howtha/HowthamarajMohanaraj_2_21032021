@@ -4,15 +4,16 @@
         <meta charset="utf-8">
         <title> Reservia </title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     </head>
 
     <body>
         <header>
-            <h1> Reservia </h1>
             <nav>
+                <h1> Reservia </h1>
                 <ul>
                     <li> <a href="#"> Hébergements </a> </li>
-                    <li> <a href="#"> Activités </a> </li>
+                    <li> <a href="#"> <span> Activités </span> </a> </li>
                     <li> <a href="#"> S'inscrire </a> </li>
                 </ul>
             </nav>
@@ -21,17 +22,84 @@
                 <span> En plein centre ville ou en plein nature </span>
             </div>
             <div class="search">
-                <i class="fas fa-map-marker-alt"> </i>
-                <button> Rechercher </button>
+                <form action="bob.php" methode="post">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" value="Marseille, France">
+                    <button> Rechercher </button>
+                </form>
             </div>
             <div class="filtred">
                 <h3> Filtres </h3>
-                <button> Economique </button>
-                <button> Familial </button>
-                <button> Romantique </button>
-                <button> Animaux autorisés </button>
+                
+                <button> <i class="fas fa-money-bill-wave"> </i>Economique </button>
+                <button> <i class="fas fa-child"> </i> Familial </button>
+                <button> <i class="fas fa-heart"> </i> Romantique </button>
+                <button> <i class="fas fa-dog"> </i>  Animaux autorisés </button>
             </div>
-            <span> Plus de 500 logements sont disponibles dans cette ville </span>
+            <span> <i class="fas fa-info"> </i> Plus de 500 logements sont disponibles dans cette ville </span>
         </header>
+        <section>
+            <h1>
+                Hébergements à Marseille
+            </h1>
+            <article>
+                <h2>
+                    Auberge la Cannebière
+                    <p> Nuit à partir de 25€ </p>
+                </h2>
+            </article>
+            <article>
+                <h2>
+                    Hôtel du port
+                    <p> Nuit à partir de 52€ </p>
+                </h2>
+            </article>
+            <article>
+                <h2>
+                    Hôtel Les mouettes
+                    <p> Nuit à partir de 76€ </p>
+                </h2>
+            </article>
+            <article>
+                <h2>
+                    Hôtel de la mer
+                    <p> Nuit à partir de 46€ </p>
+                </h2>
+            </article>
+            <article>
+                <h2>
+                    Auberge le Panier
+                    <p> Nuit à partir de 23€ </p>
+                </h2>
+            </article>
+            <article>
+                <h2>
+                    Hôtel chez Amina
+                    <p> Nuit à partir de 96€ </p>
+                </h2>
+            </article>
+            <span> Afficher plus </span>
+        </section>
+        <aside>
+            <h1> Les plus populaires </h1>
+            <article>
+                <h2>
+                    Hôtel Le soleil du matin
+                    <p> Nuit à partir de 128€ </p>
+                </h2>
+            </article>
+            <article>
+                <h2>
+                    Au coeur de l'eau Chambres d'hôtes
+                    <p> Nuit à partir de 71€ </p>
+                </h2>
+            </article>
+            <article>
+                <h2>
+                    Hôtel Tout bleu et Blanc
+                    <p> Nuit à partir de 68€ </p>
+                </h2>
+            </article>
+        </aside>
     </body>
 </html>
