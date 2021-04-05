@@ -168,10 +168,10 @@ span i
 }
 
 /* Liste hébergements */
-section 
+.heber
 {
-    display : flex;
     background-color: #F2F2F2;
+    display : flex;
     flex-wrap: wrap;
     border-radius : 20px;
     padding : 20px;
@@ -255,13 +255,12 @@ section span
 }
 
 /* Etoiles bleues */
-.fas
+.fa-star
 {
     color : #0065FC;
 }
 
-/* Etoiles grises */
-.grey
+aside
 {
-    color : grey;
+    margin-left : 1000px;
 }
