@@ -193,22 +193,17 @@ section article
     border : 3px solid white;
     border-radius : 20px;
     width : 170px;
-    height : 150px;
+    height : 140px;
     margin : 10px;
     background-color : white;
     padding : 1px;
 }
 
-/* Titre hébergement */
+/* Titre hébergement à Marseille */
 section h1
 {
-    flex: 100%;
-}
-
-/* Titre section */
-section h1
-{
-    font-size : 20px;
+    flex : 100%;
+    margin-bottom : 0;
 }
 
 /* Titre hébergements */
@@ -223,7 +218,7 @@ section article p
 {
     font-size: 11px;
     font-weight : normal;
-    margin : 3px 0px 0px 5px;
+    margin : 4px 0px 3px 5px;
 }
 
 /* Symbole euros */
@@ -240,6 +235,18 @@ section span
     color : black;
     font-weight : bold;
     font-size : 14px;
+}
+
+/* Afficher plus */
+.afficherplus
+{
+    margin : 15px 0px 0px 12px;
+}
+
+/* Etoiles */
+.stars
+{
+    margin-left : 4px;
 }
 
 /* Etoiles bleues */
@@ -270,10 +277,10 @@ aside img
     border-radius : 15px 0px 0px 15px;
 }
 
-/* Titre populaires */
+/* Titre hébergement populaires */
 aside article h2
 {
-    font-size: 13px;
+    font-size: 16px;
 }
 
 /* Prix populaires */
@@ -281,6 +288,7 @@ aside article p
 {
     font-size: 11px;
     font-weight : normal;
+    margin-bottom : 30px;
 }
 
 /* Article populaires */
@@ -289,8 +297,51 @@ aside article
     border : 3px solid white;
     border-radius : 20px;
     width : 350px;
-    height : 100px;
+    height : 130px;
     margin : 10px;
     background-color : white;
     padding : 1px;
 }
+
+/* Font Awesome populaire */
+.fa-chart-line
+{
+    align-self : center;
+    margin-left : 100px;
+    
+}
+
+/* Container */
+.container
+{
+    display : flex;
+    justify-content: space-between;
+    margin-bottom : 50px;
+}
+
+/* Activités */
+.act 
+{
+    display : flex;
+    flex-wrap: wrap;
+}
+
+/* Titre activités */
+.act h1
+{
+    flex : 100%;
+}
+
+figure
+{
+    background-color: white;
+}
+
+figcaption
+{
+    color : black;
+    font-weight : bold;
+    font-size : 14px;
+}
+
+img 
