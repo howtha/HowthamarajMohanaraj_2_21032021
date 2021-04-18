@@ -179,7 +179,7 @@ span i
 }
 
 /* Images hébergements */
-section article img
+.heber img
 {
     width : 98%;
     height : 70px;
@@ -188,7 +188,7 @@ section article img
 }
 
 /* Article hébergements */
-section article
+.heber article
 {
     border : 3px solid white;
     border-radius : 20px;
@@ -200,21 +200,21 @@ section article
 }
 
 /* Titre hébergement à Marseille */
-section h1
+.heber h1
 {
     flex : 100%;
     margin-bottom : 0;
 }
 
 /* Titre hébergements */
-section article h2
+.heber article h2
 {
     font-size: 13px;
     margin : 0px 0px 0px 5px;
 }
 
 /* Prix hébergements */
-section article p
+.heber article p
 {
     font-size: 11px;
     font-weight : normal;
@@ -222,7 +222,7 @@ section article p
 }
 
 /* Symbole euros */
-section article span, aside article span
+.heber article span, aside article span
 {
     color : black;
     font-weight : bold;
@@ -230,7 +230,7 @@ section article span, aside article span
 }
 
 /* Afficher plus */
-section span
+.heber span
 {
     color : black;
     font-weight : bold;
@@ -332,16 +332,77 @@ aside article
     flex : 100%;
 }
 
-figure
-{
-    background-color: white;
-}
-
-figcaption
+/* Légendes */
+.act figcaption
 {
     color : black;
     font-weight : bold;
     font-size : 14px;
+    border-radius : 0px 0px 20px 20px;
+    box-shadow : 2px 0px 6px #F2F2F2;
+    height : 30px;
+    padding : 15px 0px 0px 15px;
 }
 
-img 
+/* Images activités */
+.act img
+{
+    display : block;
+    border-radius: 20px 20px 0px 0px;
+    width : 100%;
+    height : 100%;
+    box-shadow : 2px 0px 6px #F2F2F2;
+}
+
+.act article    
+{
+    width : 20%;
+    height : 500px;
+}
+
+/* Vieux Port */
+.port img
+{
+    height : 400px;
+    width : 250px;
+}
+
+.pomegues img
+{
+    height : 200px;
+    width : 300px;
+}
+
+/* Pied de page */
+footer
+{
+    display : flex;
+    background-color: #F2F2F2;
+    height : 150px;
+    padding-top : 10px;
+}
+
+/* Menu pied de page */
+footer ul
+{
+    list-style : none;
+    margin-right : 200px;
+    padding : 0;
+}
+
+/* Puce pied de page */
+footer li
+{
+    color : black;
+    font-size : 14px;
+    padding : 5px;
+}
+
+/* Menu titre */
+footer h3
+{
+    color : black;
+    font-weight : bold;
+    font-size : 14px;
+    padding-left : 5px;
+}
