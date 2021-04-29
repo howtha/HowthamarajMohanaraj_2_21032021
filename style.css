@@ -14,7 +14,7 @@
 body
 {
     font-family: 'Raleway', Arial, sans-serif;
-    margin : 0px 20px 0px 20px;
+    margin : 0px 40px 0px 40px;
 }
 
 /* Le menu */
@@ -175,7 +175,7 @@ span i
     flex-wrap: wrap;
     border-radius : 20px;
     padding : 20px;
-    width : 49%;
+    width : 55%;
 }
 
 /* Images hébergements */
@@ -262,8 +262,8 @@ aside
     display : flex;
     flex-wrap: wrap;
     border-radius : 20px;
-    padding : 20px;
-    width : 25%;
+    padding : 30px;
+    width : 30%;
     float : right;
 }
 
@@ -366,8 +366,8 @@ footer
     display : flex;
     background-color: #F2F2F2;
     height : 150px;
-    padding-top : 10px;
-    margin : 15px -20px 0px -20px; /* Body margin 20px */
+    padding : 10px 0px 0px 20px;
+    margin : 15px -40px 0px -40px; /* Body margin 20px */
 }
 
 /* Menu pied de page */
@@ -393,4 +393,66 @@ footer h3
     font-weight : bold;
     font-size : 14px;
     padding-left : 5px;
+}
+
+@media all and (max-width : 1024px)
+{
+    nav
+    {
+        display : flex;
+        flex-wrap: wrap;
+    }
+
+    /* Menu hébergements */
+    nav ul li:nth-child(1)
+    {
+        order : 1;
+        border-bottom : 1px solid #0065FC;
+    }
+
+    /* Menu activités */
+    nav ul li:nth-child(2)
+    {
+        order : 2;
+        border-bottom : 1px solid grey;
+    }
+
+    /* Menu s'inscrire */
+    nav ul li:nth-child(3)
+    {
+        order : -1;
+    }
+
+    /* Trouvez votre hébergement */
+    .hebergement
+    {
+        font-size : 25px;
+    }
+
+    /* Filtres */
+    .filtred
+    {
+        display : flex;
+        flex-wrap : wrap;
+        width : 35%;
+    }
+
+    /* Filtres titre */
+    .filtred h3 
+    {
+        flex : 100%;
+    }
+
+    /* Populaire + Hébergements */ 
+    .container
+    {
+        display : grid;
+    }
+
+    .heber, aside
+    {
+        display : grid;
+        width : 100%;
+    }
+
 }
