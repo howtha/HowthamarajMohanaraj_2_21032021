@@ -185,6 +185,7 @@ span i
     height : 60%;
     border-radius : 15px 15px 0px 0px;
     padding : 1%;
+    object-fit: cover; /* Anti flou en zoomant */
 }
 
 /* Article hébergements */
@@ -275,6 +276,7 @@ aside img
     float : left;
     margin-right : 15px;
     border-radius : 15px 0px 0px 15px;
+    object-fit: cover; /* Anti flou en zoomant */
 }
 
 /* Titre hébergement populaires */
@@ -350,14 +352,33 @@ aside article
     display : block;
     border-radius: 20px 20px 0px 0px;
     box-shadow : 2px 0px 6px #F2F2F2;
-    height : 100px;
+    height : 130px;
     width : 250px;
+    object-fit: cover; /* Anti flou en zoomant */
 }
 
 /* Images solo */
 .port img, .calanques img
 {
-    height : 260px;
+    height : 320px;
+}
+
+/* Image Pomègue */
+.pomegues img 
+{
+    height : 140px;
+}
+
+/* Légende Pomègues */
+.pomegues figcaption
+{
+    margin-bottom : 40px;
+}
+
+/* Image Frioul */
+.frioul img 
+{
+    height : 100px;
 }
 
 /* Pied de page */
