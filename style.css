@@ -426,6 +426,13 @@ footer h3
 
 @media all and (max-width : 1024px)
 {
+    /* HTML corps */
+    body
+    {
+        margin : 0;
+    }
+
+    /* Menu */
     nav
     {
         display : flex;
@@ -455,7 +462,28 @@ footer h3
     /* Trouvez votre hébergement */
     .hebergement
     {
-        font-size : 25px;
+        font-size : 20px;
+        margin-left : 20px;
+        margin-right : 20px;
+    }
+
+    /* Hébergement sous-titre */
+    .hebergement span
+    {
+        font-size : 13px;
+        margin-bottom: 20px;
+    }
+
+    /* Barre de recherche */
+    .search
+    {
+        margin-left : 20px;
+    }
+
+    /* Titre filtres */
+    .filtred h3
+    {
+        flex : 100%;
     }
 
     /* Filtres */
@@ -463,25 +491,31 @@ footer h3
     {
         display : flex;
         flex-wrap : wrap;
-        width : 35%;
+        width : 85%;
+        margin-left : 20px;
     }
 
-    /* Filtres titre */
-    .filtred h3 
+    /* Bouton filtre */
+    .filtred button 
     {
-        flex : 100%;
+        margin : 0px 20px 20px 0px;
+    }
+    
+    /* Info phrase */
+    .info
+    {
+        display : block;
+        font-size : 14px;
+        margin : 10px 20px 20px 20px; 
     }
 
-    /* Populaire + Hébergements */ 
     .container
     {
-        display : grid;
+        flex-direction: column-reverse;
     }
 
-    .heber, aside
+    aside, .hebergement
     {
-        display : grid;
         width : 100%;
     }
-
 }
