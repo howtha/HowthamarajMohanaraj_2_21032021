@@ -461,7 +461,7 @@ footer h3
     /* Trouvez votre hébergement */
     .hebergement
     {
-        font-size : 20px;
+        font-size : 25px;
         margin-left : 20px;
         margin-right : 20px;
     }
@@ -469,7 +469,7 @@ footer h3
     /* Hébergement sous-titre */
     .hebergement span
     {
-        font-size : 13px;
+        font-size : 16px;
         margin-bottom: 20px;
     }
 
@@ -525,7 +525,7 @@ footer h3
     /* Hôtel */
     aside article
     {
-        margin : 0px 5px 10px 5px;
+        margin : 0px 5px 10px 10px;
         width : 90%;
     }
 
@@ -539,6 +539,7 @@ footer h3
     aside h1
     {
         font-size : 20px;
+        margin-left : 15px;
     }
 
     /* Hébergement */ 
@@ -589,6 +590,18 @@ footer h3
         margin-bottom : 5px;
     }
 
+    /* Afficher plus */
+    span.afficherplus
+    {
+        font-size : 15px;
+        margin : 25px 0px 0px 20px;
+    }
+
+    .container
+    {
+        margin-bottom : 30px;
+    }
+
     /* Bas de page */
     footer 
     {
@@ -602,6 +615,14 @@ footer h3
     footer li
     {
         width : 250px;
+        font-size : 15px;
+    }
+
+
+    /* Titre bas de page */
+    footer h3
+    {
+        font-size : 15px;
     }
 
 }
