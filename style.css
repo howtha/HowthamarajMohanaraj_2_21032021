@@ -77,7 +77,7 @@ li a
 }
 
 /* Bouton rechercher */
-form button
+form .desktop
 {
     background-color: #0065FC;
     color : white;
@@ -96,6 +96,12 @@ form input
     font-weight: bold;
     position : relative;
     right : 4px;
+}
+
+/* Mobile recherche */
+.mobile
+{
+    display : none;
 }
 
 /* Icone position */
@@ -477,6 +483,51 @@ footer h3
     .search
     {
         margin-left : 20px;
+    }
+
+    /* Barre de recherche */
+    form .desktop
+    {
+        display : none;
+    }
+
+    /* Barre de recherche */
+    form .mobile
+    {
+        display : contents;
+        color : white;
+    }
+
+    /* Icone recherche */
+    .fa-search
+    {
+        background-color: #0065FC;
+        position : relative;
+        right : 15px;
+        bottom : 5px;
+        border-radius: 10px;
+        width : 20px;
+        height : 20px;
+        text-align : center;
+    }
+
+    /* Icone localisation */
+    .fa-map-marker-alt
+    {
+        height : 20px;
+        position : top;
+        bottom : 2px;
+        width : 20px;
+        text-align: center;
+
+    }
+
+    /* Placeholder */
+    form input
+    {
+        width : 200px;
+        font-size: 15px;
+        border-color : #F2F2F2;
     }
 
     /* Titre filtres */
