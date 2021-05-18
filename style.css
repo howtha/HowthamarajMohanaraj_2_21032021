@@ -437,31 +437,62 @@ footer h3
         margin : 0;
     }
 
-    /* Menu */
-    nav
+    nav h1 img
     {
-        display : flex;
-        flex-wrap: wrap;
+        padding-left : 20px;
     }
+
+    /* Logo Reservia */
+    nav h1
+    {
+        width : 0px;
+    }
+
+    /* Menu */
+    nav ul
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 50%);
+        grid-auto-rows: minmax(20px, auto);
+        padding : 0;
+        width : 100%;
+    }
+
+    /* Menu */
+    nav ul li a, nav ul li span, nav ul li
+    {
+        font-size : 16px;
+        margin : 0;
+        padding-bottom: 5px;
+    }
+
 
     /* Menu hébergements */
     nav ul li:nth-child(1)
     {
-        order : 1;
-        border-bottom : 1px solid #0065FC;
+        border-bottom : 3px solid #0065FC;
+        grid-column: 1;
+        grid-row: 2;
+        text-align : center;
     }
 
     /* Menu activités */
     nav ul li:nth-child(2)
     {
-        order : 2;
-        border-bottom : 1px solid grey;
+        border-bottom : 3px solid #E2E2E2;
+        grid-column: 2;
+        grid-row: 2;
+        text-align : center;
     }
 
     /* Menu s'inscrire */
     nav ul li:nth-child(3)
     {
-        order : -1;
+        font-weight: bold;
+        grid-column: 2;
+        grid-row: 1;
+        margin : 20px 20px 30px 0px;
+        text-align : right;
     }
 
     /* Trouvez votre hébergement */
