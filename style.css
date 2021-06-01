@@ -552,11 +552,9 @@ footer h3
     .fa-map-marker-alt
     {
         height : 20px;
-        position : top;
         bottom : 2px;
-        width : 20px;
+        width : 50px;
         text-align: center;
-
     }
 
     /* Placeholder */
