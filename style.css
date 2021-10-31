@@ -253,7 +253,8 @@ span i
 /* Afficher plus */
 .afficherplus
 {
-    margin : 15px 0px 0px 12px;
+    margin : 15px 900px 0px 12px;
+    white-space: nowrap;
 }
 
 /* Etoiles */
