@@ -263,9 +263,15 @@ span i
 }
 
 /* Etoiles bleues */
-.fa-star
+.blue
 {
     color : #0065FC;
+}
+
+/* Etoiles grises */
+.grey
+{
+    color : grey;
 }
 
 /* Les plus populaires */
@@ -322,6 +328,11 @@ aside article
 {
     align-self : center;
     margin-left : 130px;
+}
+
+.popAwesome
+{
+    display : flex;
 }
 
 /* Container */
@@ -437,9 +448,9 @@ footer h3
 
 @media all and (max-width : 1024px)
 {
-    /* HTML corps */
     body
     {
+        width : 100%;
         margin : 0;
     }
 
@@ -458,7 +469,7 @@ footer h3
     nav ul
     {
         display: grid;
-        grid-template-columns: repeat(3, 50%);
+        grid-template-columns: repeat(0, 50%);
         grid-auto-rows: minmax(20px, auto);
         padding : 0;
         width : 100%;
@@ -653,27 +664,33 @@ footer h3
     /* Activité */
     .act
     {
-        width : 100%;
-        margin : 0px 20px 0px 20px;
+        width : 100%;   
     }
 
     /* Titre activité */
     .act h1
     {
         font-size : 20px;
+        margin : 20px 0px 0px 20px;
+    }
+
+    .act article
+    {
+        margin : 10px 20px 0px 15px;
     }
 
     /* Images activité */
     .act img
     {
-        width : 100%;
         height : 150px;
+        width : 100%;
     }
 
     /* Elément activité */
     figure
     {
         margin-bottom : 5px;
+        width : 100%;
     }
 
     /* Afficher plus */
@@ -710,5 +727,16 @@ footer h3
     {
         font-size : 15px;
     }
+
+    .aPropos, .nosHebergements, .assistance
+    {
+        width : 50%;
+    }
+
+    .fusionAct, .calanques, .port
+    {
+        width : 100%;
+    }
+
 
 }
